@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemmon:</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./book-table.css" />
+  </head>
+  <body>
+    <header id="logo">
+      <img
+        src="../images/Little-Lemon-logos/Asset 16@4x.png"
+        alt="little lemon logo"
+      />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="./new-menu.html">Menu</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="./career.html">Career</a></li>
+      </ul>
+    </nav>
+    <main id="table-main" class="main">
+      <h2>Reserve Your Seats</h2>
+      <section class="table">
+        <form action="#">
+          <div class="form-item">
+            <label for="name">Please Enter Your Name:</label>
+            <input id="name" type="text" name="name" />
+          </div>
+
+          <div class="form-item">
+            <label for="phno">Please Enter Your Mobile No:</label>
+            <input id="phno" type="tel" name="mobno" />
+          </div>
+          <div class="form-item">
+            <label for="seats">How many seats?</label>
+            <input
+              id="seats"
+              type="number"
+              name="seats"
+              min="1"
+              max="20"
+              value="1"
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="datetime">Please Select Date and Time:: </label>
+            <input id="name" type="datetime-local" name="bookdate" />
+          </div>
+
+          <button type="submit">Book Your Table</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-logo">
+        <img src="../images/Little-Lemon-logos/Asset 20@4x.png" alt="logo" />
+      </div>
+
+      <div id="copyright">@copyright Little Lemon</div>
+    </footer>
+  </body>
+</html>

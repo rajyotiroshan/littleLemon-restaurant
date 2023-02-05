@@ -1,0 +1,17 @@
+#carrier h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+section#carrier {
+  margin: 3rem 2rem;
+}
+
+article.carrie-list_item {
+  margin: 2.5rem 0px;
+  /* background-color: lightgoldenrodyellow; */
+}
+p.carrie-list_description {
+  font-size: 1.8rem;
+  padding: 0.3rem 0.8rem;
+}
