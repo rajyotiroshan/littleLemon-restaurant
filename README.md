@@ -1,4 +1,5 @@
-# Little Lemon 
+# Little Lemon
+
 A Restaurant named Little Lemon
 
 ## Features or Functionality
@@ -8,6 +9,7 @@ A Restaurant named Little Lemon
 2. A hero section animating latest Dish added to the menu
 3. A Booking page
 4. A menu page to choose from
+5. Carrier page mentioning current job posting
 ```
 
 ### Live Link
