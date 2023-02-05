@@ -9,7 +9,7 @@ header {
   margin: 1.5rem;
 }
 header > img {
-  width: 210px;
+  width: 60rem;
 }
 
 /*
@@ -17,6 +17,9 @@ header > img {
  */
 nav {
   margin-bottom: 1rem;
+  background-color: #333333;
+  color: #ebedec;
+  border-radius: 5px;
 }
 nav > ul {
   list-style-type: none;
@@ -55,16 +58,25 @@ a:active {
 /*
  * MAIN
  */
+#main {
+}
 
 #hero {
-  background-image: url("./images/dishes/hero_2-non-veg.jpg");
+  background-image: url("./images/dishes/hero_1_thali.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 2rem 0;
-  position: relative;
+
+  height: 30rem;
+  border-radius: 10px;
 }
 
+#hero > article {
+  padding: 10px;
+  width: 50%;
+  color: darkolivegreen;
+}
 #hero-img_cont {
   position: relative;
   height: 100%;
@@ -92,33 +104,78 @@ p {
 #main-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-
 #main-content article {
   padding: 3px 7px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 30%;
+  background-color: #f9eedb;
+  align-self: flex-start;
+  border-radius: 10px;
+}
+#main-content h3,
+p {
+  color: chocolate;
 }
 
+#main-content p {
+  font-size: 1.8rem;
+  font-family: serif;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
+}
 #main-content article img {
   max-width: 100%;
 }
+.main-item-bg {
+  width: 100%;
+  height: 17rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box;
+  background-size: cover;
+}
 
+#new-dish-bg {
+  background-image: url(./images/dishes/hero_1_thali.jpg);
+}
+#book-table-bg {
+  background-image: url(./images/dishes/book_table.jpg);
+}
+#open-hour-bg {
+  background-image: url(./images/dishes/new_dish.jpg);
+}
+a.main-item-link {
+  font-size: 1.8rem;
+  align-self: flex-start;
+  padding: 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
+  color: mediumseagreen;
+}
 footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 20px 0;
-  padding: 10px 0;
+  padding: 10px 3rem;
 }
 
 footer > * {
   margin-right: 1rem;
+  flex: 1;
 }
 footer img {
-  width: 200px;
+  width: 7rem;
+}
+div#copyright {
+  font-size: 1.5rem;
+  text-align: right;
+  border-top: 4px solid darkgrey;
+  border-radius: 6px;
 }

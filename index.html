@@ -17,18 +17,23 @@
     </header>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#book">Book</a></li>
-        <li><a href="#career">Career</a></li>
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./pages/new-menu.html">Menu</a></li>
+        <li><a href="./pages/book-table.html">Book</a></li>
+        <li><a href="./pages/career.html">Career</a></li>
       </ul>
     </nav>
     <main id="main">
       <section id="hero">
         <article>
-          <h2 id="hero-title">Today's Special</h2>
+          <h2 id="hero-title">Today's Special: 30% Discount</h2>
           <div id="hero-img_cont">
-            <img src="./images/dishes/hero_1_thali.jpg" alt="thali" />
+            <p>
+              Hi, We are introducing our new Dish at 30% discount for next 10
+              Days. After dining in, Give us your positive review and get 30%
+              cashback in your wallet.
+            </p>
+            <!-- <img src="./images/dishes/hero_1_thali.jpg" alt="thali" /> -->
             <!--  <img src="./images/dishes/hero_2-non-veg.jpg" alt="non veg thali" />
             <img src="./images/dishes/hero_3-veg_buffet.jpg" alt="veg buffet" /> -->
           </div>
@@ -37,30 +42,45 @@
 
       <section id="main-content">
         <article>
-          <h3>Our New Menu</h3>
-          <img src="./images/dishes/hero_1_thali.jpg" alt="" />
+          <h3>Our New Dish</h3>
+          <div class="main-item-bg" id="new-dish-bg"></div>
+
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
             blanditiis minima facilis, dicta alias sed nihil maiores,
             consequuntur similique eos officia. Magnam, deserunt? Commodi,
             reiciendis a voluptatem dicta totam omnis.
           </p>
+          <a
+            class="new-dish main-item-link"
+            href="./pages/new-menu.html"
+            target="_blank"
+            >Check our new Dish</a
+          >
         </article>
 
         <article>
           <h3>Book a Table</h3>
-          <img src="./images/dishes/book_table.jpg" alt="" />
+          <div class="main-item-bg" id="book-table-bg"></div>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Accusantium a suscipit eaque, eligendi ducimus voluptatum libero
             magnam beatae odit eius dolore voluptatibus aperiam ex nesciunt
             iusto iste labore architecto vel.
           </p>
+          <a
+            class="main-item-link book-table-link"
+            id="main-item-link"
+            href="./pages/book-table.html"
+            target="_blank"
+            >Reserve a table</a
+          >
         </article>
 
         <article>
           <h3>Openning hours</h3>
-          <img src="./images/dishes/new_dish.jpg" alt="" />
+          <div class="main-item-bg" id="open-hour-bg"></div>
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa
             ullam inventore facere eligendi necessitatibus explicabo quisquam
@@ -72,11 +92,11 @@
     </main>
 
     <footer>
-      <div>
-        <img src="./images/Little-Lemon-logos/Asset 16@4x.png" alt="logo" />
+      <div id="footer-logo">
+        <img src="./images/Little-Lemon-logos/Asset 20@4x.png" alt="logo" />
       </div>
 
-      <div>@copyright Little Lemon</div>
+      <div id="copyright">@copyright Little Lemon</div>
     </footer>
   </body>
 </html>

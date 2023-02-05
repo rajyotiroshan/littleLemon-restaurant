@@ -11,3 +11,21 @@
 img {
   display: block;
 }
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: monospace;
+  background-color: #edefee;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+label,
+button,
+textarea {
+  display: block;
+}
