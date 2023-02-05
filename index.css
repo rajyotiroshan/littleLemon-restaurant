@@ -86,6 +86,9 @@ a:active {
   height: 150px;
 }
 
+#hero-img_cont p {
+  color: #333333;
+}
 h2 {
   font-size: 3rem;
 }
@@ -118,9 +121,8 @@ p {
   align-self: flex-start;
   border-radius: 10px;
 }
-#main-content h3,
-p {
-  color: chocolate;
+#main-content h3 {
+  color: #00a18c;
 }
 
 #main-content p {
