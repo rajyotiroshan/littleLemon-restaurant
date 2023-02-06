@@ -190,3 +190,7 @@ div#copyright {
   border-top: 4px solid darkgrey;
   border-radius: 6px;
 }
+.table button:hover {
+  background-color: #000000a1;
+  /* color: cadetblue; */
+}
